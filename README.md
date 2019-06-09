@@ -1,0 +1,2 @@
+# GifTastic
+An AJAX exercise
