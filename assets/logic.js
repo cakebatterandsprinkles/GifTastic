@@ -27,7 +27,7 @@ $("#new-show").on("click", function () {
 function characterClicked() {
     let clickedButton = $(this).text().replace(/ /g, "+");
     $(".randomQuotes").addClass("border");
-    let queryUrl = "http://api.giphy.com/v1/gifs/search?q=" +
+    let queryUrl = "https://api.giphy.com/v1/gifs/search?q=" +
         clickedButton +
         "&api_key=wSCP998sGk4ILdpbjPhlS0EMr9227bNx&limit=10&lang=en";
 
