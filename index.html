@@ -13,13 +13,22 @@
 </head>
 
 <body>
+    <div class="jumbotron jumbotron-fluid header text-center">
+        <h1 class="display-2">GIFTastic!</h1>
+    </div>
     <div class="container">
         <div id="buttons"></div>
-        <div class="randomQuotes"></div>
-        <div class="newInputs">
-                <input type="text" class="mt-1" id="show-input" placeholder="Friends" />
-                <input type="button" id="new-show" value="Add a new show!">
+        <div class="row mt-4 mb-4 wrapper">
+            <div class="col-lg-9 mb-2 randomQuotes"></div>
+            <div class="col-lg-3 mb-2 newInputs">
+                <fieldset class="text-center">
+                    <legend>Add your own character!</legend>
+                    <input type="text" class="mt-1 mb-2 text" id="show-input" placeholder="Flame Princess"/>
+                    <input type="button" class="btn btn-sm btn-warning" id="new-show" value="Add a new character!">
+                </fieldset>
+            </div>
         </div>
+
         <div id="gifs"></div>
     </div>
 

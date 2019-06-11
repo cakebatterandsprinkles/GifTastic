@@ -1,0 +1,42 @@
+.header{
+    background-image: url(../assets/images/adventure_time_episode_268_still.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:monospace;
+    color: white;
+    text-shadow: 5px 10px 10px #202020;
+}
+
+.userButton, .randomQuotes {
+    font-family:monospace;
+}
+
+.text {
+    display:block;
+}
+
+.border {
+    background-color: rgba(224, 224, 224, 0.534);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.wrapper {
+    margin-bottom: 2rem;
+}
+
+img {
+    max-width: 400px;
+    display:inline-block;
+}
+
+fieldset, legend {
+    border : 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#show-input {
+    display:inline-block;
+}
+
