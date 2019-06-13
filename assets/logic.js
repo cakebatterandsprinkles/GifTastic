@@ -44,7 +44,9 @@ function characterClicked() {
             .on("click", gifClicked);
 
             let title = $("<p>").text("Title: " + data.data[i].title);
-            $("#gifs").append(gif).append(title);
+            let wrapper = $("<div>");
+            wrapper.append(gif).append(title);
+            $("#gifs").append(wrapper);
         }
     });
     $.get(randomQuoteUrl).then(function (data) {
